@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 50px;
+    
+}
+.h1-tag{
+    padding: 25px 0px;
+}
+.h1-tag h1{
+    margin: 10px 0px;
+    font-weight: bolder;
+}
+.orange-color{
+    color: rgb(0, 204, 255);
+}
+.flexible-container{
+    display: flex;
+    align-items: center;
+}
+.top-intro-setion{
+    border: 2px solid red;
+    color: rgb(102, 101, 101);
+}
+.half-div{
+    width: 50%;
+    padding-left: 5%;
+    border:2px solid red;
+}
+.half-div img{
+    width: 80%;
+}
+.link-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(rgb(0, 204, 255), cyan);
+    color: white;
+    font-weight: 700;
+}
