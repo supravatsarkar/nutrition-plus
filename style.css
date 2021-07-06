@@ -19,10 +19,11 @@ p{
     line-height: 30px;
     font-size: 17px;
 }
+/* Top Intro Section */
 .heading-tag{
     padding: 25px 0px;
 }
-.h1-tag h1{
+.heading-tag h1{
     margin: 10px 0px;
     font-weight: bolder;
 }
@@ -65,6 +66,8 @@ p{
 #intr-img-div{
     
 }
+
+/* About Section */
 .about-section{
     color: rgb(102, 101, 101);
     background-image: url(images/Frame\ 57.jpg);
@@ -81,6 +84,7 @@ p{
     padding-top: 52px;
 }
 
+/* Receipe Section */
 .receipe-section{
 
 }
@@ -95,12 +99,13 @@ p{
     margin-left: 30px;
 }
 .one-third-area{
-    width: 28%;
+    width: 27%;
     /* border: 2px solid black; */
     margin-left: 55px;
-    height: 490px;
+    height: 510px;
     border-radius: 25px;
-    box-shadow: 4px 4px 24px 8px grey;
+    box-shadow: 4px 5px 39px -14px grey;
+    padding:8px;
 }
 
 .one-third-area img{
@@ -110,6 +115,25 @@ p{
     border-radius: 25px;
     height: 56%;
 }
-.one-third-area h3, p{
+.one-third-area h3, .one-third-area p{
     text-align: center;
 }
+
+/* Social Activity Section */
+.social-activity-section{
+    /* border: 2px solid black; */
+    height: 230px;
+    width: 90%;
+    margin: 30px auto;
+    box-shadow: 4px 5px 39px -14px grey;
+}
+.social-item{
+    width: 140%;
+    margin: 0 100px;
+}
+.social-item p{
+    font-size: 16px;
+    color: gray;
+}
+
+/* Footer Section */
