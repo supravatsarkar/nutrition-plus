@@ -19,6 +19,22 @@ p{
     line-height: 30px;
     font-size: 17px;
 }
+nav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+nav h1{
+    font-size: 30px;
+}
+nav a{
+    text-decoration: none;
+    /* box-shadow: 4px 5px 39px -14px grey; */
+    color: gray;
+    padding: 10px 30px;
+    border-left: 2px solid rgb(0, 204, 255);
+}
 /* Top Intro Section */
 .heading-tag{
     padding: 25px 0px;
@@ -27,7 +43,7 @@ p{
     margin: 10px 0px;
     font-weight: bolder;
 }
-.orange-color{
+.blue-color{
     color: rgb(0, 204, 255);
 }
 .flexible-container{
@@ -47,7 +63,7 @@ p{
     /* padding-right: 5%; */
 }
 .half-div p{
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     padding-right: 100px;
 }
 .half-div img{
